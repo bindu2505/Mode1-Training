@@ -1,0 +1,8 @@
+package expc;
+
+class InvalidEmailException extends Exception {  
+  public InvalidEmailException(String error) { 
+    super(error);
+  }
+
+}

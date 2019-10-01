@@ -1,0 +1,25 @@
+package com.hcl.ex;
+
+public class Div {
+	
+	public static void main(String[] args) {
+		int a,b,c;
+		try {
+			a=Integer.parseInt(args[0]);
+			b=Integer.parseInt(args[1]);
+			c=a/b;
+			System.out.println("division "+c);
+		} catch(ArithmeticException e){
+			System.out.println("divide by zero is impossible");
+		} catch(NumberFormatException e){
+			System.out.println("String is not accepted");
+		} catch(ArrayIndexOutOfBoundsException e){
+			System.out.println("enter the arguments mandatorily");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally{
+			System.out.println("program bby hcl participants");
+		}
+	}
+
+}

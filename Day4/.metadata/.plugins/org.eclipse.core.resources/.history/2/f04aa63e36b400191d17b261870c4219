@@ -1,0 +1,12 @@
+package expc;
+
+/*
+ * InvalidEmailException provides command
+ */
+
+class InvalidEmailException extends Exception {  
+  public InvalidEmailException(String error) { 
+    super(error);
+  }
+
+}

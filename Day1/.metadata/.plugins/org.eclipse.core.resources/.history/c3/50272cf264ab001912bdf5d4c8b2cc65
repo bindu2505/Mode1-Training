@@ -1,0 +1,58 @@
+package com.hcl.obj;
+
+
+
+public class Agent {
+	
+	public StringBuilder show1(String agentId, String fullName, int  maritalStatus, String zipCode){
+		StringBuilder sbError= new StringBuilder();
+		boolean isValid =  true;
+		
+		if(agentId.charAt(0)!= 'A'){
+			sbError.append("agentid must begin with A"+ "\r\n");
+			isValid=false;
+
+		}
+		
+		if(fullName.indexOf(' ')== -1){
+			sbError.append("name must contain both firstname and lastname" + "\r\n");
+			isValid=false;
+			
+		}
+		
+		if(fullName.length()>20){
+			sbError.append("name should not cross 20 charracters"+"\r\n");
+		}
+		
+		if (maritalStatus != 0|| maritalStatus != 1){
+			sbError.append("enter proper marital status" + "\r\n");
+			
+		}
+		
+		if(zipCode.length()>6){
+			sbError.append("cannot exceed 6 characters"+ "\r\n");
+		}
+		
+		if(isValid =  true){
+			sbError.append("agentId "+ agentId + "\r\n");
+			sbError.append("full Name "+fullName+ "\r\n");
+			sbError.append("marital status "+ maritalStatus+"\r\n");
+			sbError.append("zipcode "+ zipCode+ "\r\n");
+		}
+		
+		
+		
+		
+		return sbError;
+	}
+	
+	public static void main(String[] args) {
+		String agentId= A234;
+		String fullName="bindu";
+		int  maritalStatus=2; 
+		String zipCode="asdref";
+		StringBuilder sbRes= new Agent().show1(agentId,fullName,maritalStatus,zipCode)
+		System.out.println(sbRes);
+		
+	}
+}

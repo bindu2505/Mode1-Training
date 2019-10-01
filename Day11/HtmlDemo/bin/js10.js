@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+function strDemo(){
+	var res="";
+	var str="Welcome to HTML Programming....by Prasanna";
+	var len = str.length;
+	res += "Length is "+ len + "<br/>";
+	res += "lower-case string is <b>" + str.toLowerCase() + "</b><br/>";
+	res += "upper-case string is <b>" + str.toUpperCase() + "</b><br/>";
+	res += "First occurance of 'a' is <b>" + str.indexOf("a") + "</b><br/>";
+	res += "char at 5th position is <b>" + str.charAt(5) + "</b><br/>";
+	res += "replaced string is <b>" + str.replace("HTML","HTML 5") + "</b><br/>";
+	
+	document.getElementById("res").innerHTML=res;
+}

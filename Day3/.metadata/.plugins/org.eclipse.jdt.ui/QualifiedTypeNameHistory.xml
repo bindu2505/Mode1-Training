@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="demo.DayName"/>
+<fullyQualifiedTypeName name="demo.Student"/>
+<fullyQualifiedTypeName name="demo.Second"/>
+<fullyQualifiedTypeName name="demo.Employ"/>
+<fullyQualifiedTypeName name="com.hcl.abs.SaiKrishna"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Training"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Anubhav"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Animal"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Crocodile"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Janani"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Raghu"/>
+<fullyQualifiedTypeName name="com.hcl.abs.Employ"/>
+<fullyQualifiedTypeName name="com.hcl.intf.ITraining"/>
+<fullyQualifiedTypeName name="com.hcl.intf.Test"/>
+<fullyQualifiedTypeName name="com.hcl.intf.IFirst"/>
+<fullyQualifiedTypeName name="com.hcl.intf.ISecond"/>
+<fullyQualifiedTypeName name="com.hcl.intf.IThird"/>
+<fullyQualifiedTypeName name="com.hcl.intf.Demo"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="com.hcl.ex.First"/>
+<fullyQualifiedTypeName name="com.hcl.ex.Second"/>
+<fullyQualifiedTypeName name="com.hcl.ex.C2"/>
+<fullyQualifiedTypeName name="com.hcl.ex.Employ"/>
+<fullyQualifiedTypeName name="com.hcl.ex.HrEmploy"/>
+<fullyQualifiedTypeName name="com.hcl.ex.JavaEmploy"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+</qualifiedTypeNameHistroy>

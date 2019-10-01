@@ -1,0 +1,11 @@
+package com.hcl.java;
+
+public class StrFunctionDemo {
+	
+	public static void main(String[] args) {
+		String str="welcome to java programmimg";
+		System.out.println("length"+ str.length());
+		System.out.println("char at 5th position"+ str.charAt(5));
+	}
+
+}

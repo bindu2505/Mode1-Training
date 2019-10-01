@@ -1,0 +1,32 @@
+package com.hcl.collections;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Scan3 {
+  public static void main(String[] args) {
+	try {
+		FileWriter fw = new FileWriter("C:/files/data.txt");
+		fw.write("12 ram 12.5 bindu 6 78.8 true prem sri"
+				+ "false 45 2.5 anand prem ");
+		fw.close();
+		FileReader fr = new FileReader("C:/files/data.txt");
+		Scanner sc = new Scanner(fr);
+		while(sc.hasNext()){
+			if(sc.hasNextInt()){
+				System.out.println(sc.nextInt());
+			}else{
+				sc.next();
+			}
+		}
+		sc.close();
+		fr.close();
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+}
+}

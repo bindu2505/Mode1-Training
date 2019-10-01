@@ -1,0 +1,22 @@
+package expc;
+
+public class Ex2 {
+  /**
+    * main method has logic.
+    * @param args list of arguments.
+    */
+  public static void main(String[] args) { 
+    try { 
+      System.out.println("s");
+      throw new NullPointerException();
+    } catch (ArithmeticException e) { 
+      System.out.println(e);
+    } catch (NullPointerException e){ 
+    //System.out.println("error");
+				throw new NumberFormatException();
+			}catch(NumberFormatException e){
+				System.out.println("rethrown error");
+			}
+	}
+
+}

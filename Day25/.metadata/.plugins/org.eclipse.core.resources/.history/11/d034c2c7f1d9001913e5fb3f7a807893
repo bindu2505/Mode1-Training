@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<EmployeeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Employee.xsd">
+  <Employee>
+    <EmpNo>2</EmpNo>
+    <EmpName>Bindu</EmpName>
+    <Salary>25000</Salary>
+    <EmpBand>M</EmpBand>
+  </Employee>
+   <Employee>
+    <EmpNo>14</EmpNo>
+    <EmpName>Mohan</EmpName>
+    <Salary>99156</Salary>
+    <EmpBand>C</EmpBand>
+  </Employee>
+   <Employee>
+    <EmpNo>18</EmpNo>
+    <EmpName>Neethu</EmpName>
+    <Salary>14452</Salary>
+    <EmpBand>E</EmpBand>
+  </Employee>
+</EmployeeData>

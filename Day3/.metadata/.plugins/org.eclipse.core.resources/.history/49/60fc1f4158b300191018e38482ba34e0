@@ -1,0 +1,13 @@
+package com.hcl.abs;
+
+abstract class training{
+	abstract void name();
+	abstract void email();
+	
+}
+
+
+
+public class AbsDemo {
+
+}

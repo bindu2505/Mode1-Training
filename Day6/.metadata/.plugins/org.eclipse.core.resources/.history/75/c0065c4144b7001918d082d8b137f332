@@ -1,0 +1,24 @@
+package com.hcl.collections;
+
+interface IHello{
+	void sayHello();
+}
+
+public class Lambda2 {
+  public static void main(String[] args) {
+	IHello h1 = () -> {
+		System.out.println("hello from rishab...");
+	};
+	IHello h2= () ->{
+	System.out.println("hellofrom hema...");
+  };
+  
+  IHello h3 = () ->{
+	  System.out.println("hello from priya...");
+  };
+  
+  h1.sayHello();
+  h2.sayHello();
+  h3.sayHello();
+  }
+}

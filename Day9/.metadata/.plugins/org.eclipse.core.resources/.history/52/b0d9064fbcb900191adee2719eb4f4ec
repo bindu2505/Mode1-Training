@@ -1,0 +1,9 @@
+package com.hcl.inventory;
+
+public class AddStock {
+	public static void main(String[] args) {
+		String version = "S001";
+		System.out.println("S" + (Integer.parseInt(version.replaceAll("[^0-9]", "")) + 1));
+	}
+}
+	

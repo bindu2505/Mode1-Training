@@ -1,0 +1,18 @@
+package demo;
+
+public class Attendance {
+	
+	public static void show(String...name){
+		for (String s : name) {
+	System.out.print(s+ " ");
+			
+		}
+		System.out.println();
+	}
+	public static void main(String[] args) {
+		show();
+		show("bindu","neethu");
+		show("hema","priya","janani","anisha");
+		show("lakshmi","narendra");
+	}
+}

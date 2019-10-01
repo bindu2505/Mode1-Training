@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function show(){
+		var sname=frmData.studName.value;
+		alert("name is  "+ sname);
+	}
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<from name="frmData">
+		<center>
+			Name:
+			<input type="text" name="studName" />
+			<br/><br/>
+			<input type="button" name="Show" onclick="show()" />
+			
+			
+		</center>
+
+</body>
+</html>

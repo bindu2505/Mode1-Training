@@ -1,0 +1,19 @@
+package com.hcl.inventory;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class StockDao {
+	PreparedStatement pst;
+	Connection con;
+	
+	
+	
+	public class addStock{
+		con = 
+		
+	}
+	
+	
+}
+	

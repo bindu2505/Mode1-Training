@@ -1,0 +1,26 @@
+package com.hcl.collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrIntEx {
+	public static void main(String[] args) {
+		List num = new ArrayList();
+		num.add(new Integer(44));
+		num.add(new Integer(37));
+        num.add(new Integer(777));
+        num.add(new Integer(23));
+        num.add(new Integer(85));
+		num.add(new Integer(11));
+		int sum = 0;
+		for (Object ob : num) {
+			sum += (Integer)ob;
+			
+		}
+		System.out.println("sum" + sum);
+
+		
+		
+	}
+
+}

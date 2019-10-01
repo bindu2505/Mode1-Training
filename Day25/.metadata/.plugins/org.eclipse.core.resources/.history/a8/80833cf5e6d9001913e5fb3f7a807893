@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="EmployeeData">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="Employee">
+        <xs:complexType>
+          <xs:sequence>
+    
+                <xs:element name="EmpNo" type="xs:int"/>
+                <xs:element name="EmpName" type="xs:string"/>
+<xs:element name="Salary" type="xs:int"/>
+<xs:element name="EmpBand" type="xs:string"/>
+</xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,51 @@
+package com.hcl.assign;
+
+import java.util.HashMap;
+import java.util.Scanner;
+ 
+public class IntegerToRoman { 
+  public static int[] basearr = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+  public static HashMap<Integer, String> map = new HashMap<Integer, String>();
+  /**
+   * void method provides logic.
+   */
+  
+  public static void setup() { 
+    map.put(1, "I");
+    map.put(4, "IV");
+    map.put(5, "V");
+    map.put(9, "IX");
+    map.put(10, "X");
+    map.put(40, "XL");
+    map.put(50, "L");
+    map.put(90, "XC");
+    map.put(100, "C");
+  }
+ 
+	public String Roman(int num)
+	{
+		setup();
+		String result=new String();
+		for (int i : basearr)
+		{
+			while(num>=i)
+			{
+				result += map.get(i);
+				num-= i;
+			}
+		}
+		return result;
+	}
+ 
+	public static void main(String arg[])
+	{
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("enter the number");
+		int no = scan.nextInt();
+		IntegerToRoman in = new IntegerToRoman();
+		int val=no;
+		String sd = in.Roman(val);
+		System.out.println("value= " + sd);
+	}
+}

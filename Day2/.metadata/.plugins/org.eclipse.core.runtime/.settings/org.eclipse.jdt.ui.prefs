@@ -1,0 +1,21 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="hclboxing.BoxTest"><rhs name\="hclboxing.BoxTest"/></lhs><lhs name\="hclboxing.Employ"><rhs name\="hclboxing.Employ"/></lhs><lhs name\="hclboxing.Student"><rhs name\="hclboxing.Student"/></lhs><lhs name\="hclboxing.OverLoadDemo"><rhs name\="hclboxing.OverLoadDemo"/></lhs><lhs name\="hclboxing.Demo1"><rhs name\="hclboxing.Demo1"/></lhs><lhs name\="hclboxing.EmploySearch"><rhs name\="hclboxing.EmploySearch"/></lhs><lhs name\="hclboxing.StudentSearch"><rhs name\="hclboxing.StudentSearch"/></lhs><lhs name\="hclboxing.ConTest"><rhs name\="hclboxing.ConTest"/></lhs><lhs name\="hclboxing.TimeZone"><rhs name\="hclboxing.TimeZone"/></lhs><lhs name\="hclboxing.P1"><rhs name\="hclboxing.P1"/></lhs><lhs name\="hclboxing.P2"><rhs name\="hclboxing.P2"/></lhs><lhs name\="hclboxing.Cricket"><rhs name\="hclboxing.Cricket"/></lhs><lhs name\="com.hcl.inh.C1"><rhs name\="com.hcl.inh.C2"/></lhs><lhs name\="com.hcl.inh.C2"><rhs name\="com.hcl.inh.C2"/></lhs><lhs name\="p1.C1"><rhs name\="p1.C1"/></lhs><lhs name\="p1.C2"><rhs name\="p1.C2"/></lhs><lhs name\="com.hcl.inh.StringFunction"><rhs name\="com.hcl.inh.StringFunction"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

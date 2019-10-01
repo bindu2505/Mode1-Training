@@ -1,0 +1,16 @@
+package expc;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ChkDemo {
+	/*
+	 * the main entry point
+	 * @param arg the list of arguments
+	 * @throws filenotfoundexception
+	 */
+  public static void main(String[] args) throws FileNotFoundException { 
+		FileInputStream f1=new FileInputStream("c:/hello.txt");
+	}
+
+}

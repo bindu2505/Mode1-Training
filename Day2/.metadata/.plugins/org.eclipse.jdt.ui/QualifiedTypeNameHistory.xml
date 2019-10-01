@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="hclboxing.BoxTest"/>
+<fullyQualifiedTypeName name="hclboxing.BoxEmploy"/>
+<fullyQualifiedTypeName name="hclboxing.BoxStudent"/>
+<fullyQualifiedTypeName name="hclboxing.OverLoadDemo"/>
+<fullyQualifiedTypeName name="hclboxing.Demo1"/>
+<fullyQualifiedTypeName name="hclboxing.Quiz1"/>
+<fullyQualifiedTypeName name="hclboxing.Employ"/>
+<fullyQualifiedTypeName name="hclboxing.EmploySearch"/>
+<fullyQualifiedTypeName name="hclboxing.Quiz2"/>
+<fullyQualifiedTypeName name="hclboxing.Student"/>
+<fullyQualifiedTypeName name="hclboxing.StudentSearch"/>
+<fullyQualifiedTypeName name="hclboxing.ConTest"/>
+<fullyQualifiedTypeName name="hclboxing.TimeZone"/>
+<fullyQualifiedTypeName name="hclboxing.P1"/>
+<fullyQualifiedTypeName name="hclboxing.P2"/>
+<fullyQualifiedTypeName name="hclboxing.StDemo"/>
+<fullyQualifiedTypeName name="hclboxing.Cricket"/>
+<fullyQualifiedTypeName name="com.hcl.inh.C2"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="com.hcl.inh.Class1"/>
+<fullyQualifiedTypeName name="com.hcl.inh.Class3"/>
+<fullyQualifiedTypeName name="p1.C1"/>
+<fullyQualifiedTypeName name="p1.C2"/>
+<fullyQualifiedTypeName name="com.hcl.inh.StringFunction"/>
+</qualifiedTypeNameHistroy>
